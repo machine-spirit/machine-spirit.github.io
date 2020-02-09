@@ -1,108 +1,105 @@
+
 <!DOCTYPE html>
 <html>
   <head>
-    <meta charset="utf-8" >
+    
+<meta charset="utf-8" >
 
 <title>简单三步，爱车重焕容光！ | 机器精灵 Machine Spirit</title>
+<meta name="description" content="发现精彩好物，共享精致生活">
 
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
 
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
-<link rel="shortcut icon" href="https://machine-spirit.github.io//favicon.ico?v=1581260241929">
+<link rel="shortcut icon" href="https://machine-spirit.github.io//favicon.ico?v=1581260428971">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.0/katex.min.css">
 <link rel="stylesheet" href="https://machine-spirit.github.io//styles/main.css">
 
 
 
-<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+<script src="https://cdn.bootcss.com/highlight.js/9.12.0/highlight.min.js"></script>
 
 
 
-    <meta name="description" content="韶华易逝，容颜易老
-爱车开了一两年之后，车友们时常都会想起，刚刚提车那时的，流光溢彩和璀璨光华。
-
-经过一两年的风吹雨打、泥沙侵蚀、无良洗车，爱车的漆面以及塑料包围逐渐失去光泽，特别令人惋惜。
-
-对于不差钱的车友，建议您节省时间，不用往下看..." />
-    <meta name="keywords" content="汽车用品" />
   </head>
   <body>
     <div id="app" class="main">
-
-      <div class="sidebar" :class="{ 'full-height': menuVisible }">
-  <div class="top-container" data-aos="fade-right">
-    <div class="top-header-container">
-      <a class="site-title-container" href="https://machine-spirit.github.io/">
-        <img src="https://machine-spirit.github.io//images/avatar.png?v=1581260241929" class="site-logo">
+      <div class="site-header-container">
+  <div class="site-header">
+    <div class="left">
+      <a href="https://machine-spirit.github.io/">
+        <img class="avatar" src="https://machine-spirit.github.io//images/avatar.png?v=1581260428971" alt="" width="32px" height="32px">
+      </a>
+      <a href="https://machine-spirit.github.io/">
         <h1 class="site-title">机器精灵 Machine Spirit</h1>
       </a>
-      <div class="menu-btn" @click="menuVisible = !menuVisible">
-        <div class="line"></div>
-      </div>
     </div>
-    <div>
+    <div class="right">
+      <transition name="fade">
+        <i class="icon" :class="{ 'icon-close-outline': menuVisible, 'icon-menu-outline': !menuVisible }" @click="menuVisible = !menuVisible"></i>
+      </transition>
+    </div>
+  </div>
+</div>
+
+<transition name="fade">
+  <div class="menu-container" style="display: none;" v-show="menuVisible">
+    <div class="menu-list">
       
         
-          <a href="/" class="site-nav">
+          <a href="/" class="menu purple-link">
             首页
           </a>
         
       
         
-          <a href="/archives" class="site-nav">
+          <a href="/archives" class="menu purple-link">
             归档
           </a>
         
       
         
-          <a href="/tags" class="site-nav">
+          <a href="/tags" class="menu purple-link">
             标签
           </a>
         
       
         
-          <a href="/post/about" class="site-nav">
+          <a href="/post/about" class="menu purple-link">
             关于
           </a>
         
       
     </div>
   </div>
-  <div class="bottom-container" data-aos="flip-up" data-aos-offset="0">
-    <div class="social-container">
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-    </div>
-    <div class="site-description">
-      发现精彩好物，共享精致生活
-    </div>
-    <div class="site-footer">
-      Powered by <a href="https://github.com/getgridea/gridea" target="_blank">Gridea</a> | <a class="rss" href="https://machine-spirit.github.io//atom.xml" target="_blank">RSS</a>
-    </div>
-  </div>
-</div>
+</transition>
 
 
-      <div class="main-container">
-        <div class="content-container" data-aos="fade-up">
-          <div class="post-detail">
-            <h2 class="post-title">简单三步，爱车重焕容光！</h2>
-            <div class="post-date">2020-02-09</div>
+      <div class="content-container">
+        <div class="post-detail">
+          
+            <div class="feature-container" style="background-image: url('https://machine-spirit.github.io//post-images/jian-dan-san-bu-ai-che-chong-huan-rong-guang.png')">
+            </div>
+          
+          <h2 class="post-title">简单三步，爱车重焕容光！</h2>
+          <div class="post-info post-detail-info">
+            <span><i class="icon-calendar-outline"></i> 2020-02-09</span>
             
-              <div class="feature-container" style="background-image: url('https://machine-spirit.github.io//post-images/jian-dan-san-bu-ai-che-chong-huan-rong-guang.png')">
-              </div>
+              <span>
+                <i class="icon-pricetags-outline"></i>
+                
+                  <a href="https://machine-spirit.github.io/tag/PicorzevF">
+                    汽车用品
+                    
+                  </a>
+                
+              </span>
             
-            <div class="post-content" v-pre>
-              <h1 id="韶华易逝容颜易老">韶华易逝，容颜易老</h1>
+          </div>
+          <div class="post-content">
+            <h1 id="韶华易逝容颜易老">韶华易逝，容颜易老</h1>
 <p>爱车开了一两年之后，车友们时常都会想起，刚刚提车那时的，流光溢彩和璀璨光华。<br>
 <img src="https://machine-spirit.github.io//post-images/1581258254131.jpg" alt="" loading="lazy"><br>
 经过一两年的风吹雨打、泥沙侵蚀、无良洗车，爱车的漆面以及塑料包围逐渐失去光泽，特别令人惋惜。<br>
@@ -208,39 +205,49 @@
 <p>关注公众号&quot;机器精灵&quot;，GET汽车日常养护神技能。<br>
 <img src="https://machine-spirit.github.io//post-images/1581259349728.jpg" alt="" loading="lazy"></p>
 
-            </div>
-            
-              <div class="tag-container">
-                
-                  <a href="https://machine-spirit.github.io/tag/PicorzevF" class="tag">
-                    汽车用品
-                  </a>
-                
-              </div>
-            
-            
-              <div class="next-post">
-                <div class="next">下一篇</div>
-                <a href="https://machine-spirit.github.io/post/wan-mei-po-jie-yu-tian-kai-che-hou-shi-jing-kan-bu-qing-nan-ti">
-                  <h3 class="post-title">
-                    完美破解“雨天开车，后视镜看不清”难题！
-                  </h3>
-                </a>
-              </div>
-            
-
-            
-
           </div>
-
         </div>
+
+        
+          <div class="next-post">
+            <a class="purple-link" href="https://machine-spirit.github.io/post/wan-mei-po-jie-yu-tian-kai-che-hou-shi-jing-kan-bu-qing-nan-ti">
+              <h3 class="post-title">
+                下一篇：完美破解“雨天开车，后视镜看不清”难题！
+              </h3>
+            </a>
+          </div>
+          
       </div>
+
+      
+
+      <div class="site-footer">
+  <div class="slogan">发现精彩好物，共享精致生活</div>
+  <div class="social-container">
+    
+      
+    
+      
+    
+      
+        <a href="https://weibo.com/u/6314455927" target="_blank">
+          <i class="fab fa-weibo"></i>
+        </a>
+      
+    
+      
+    
+      
+    
+  </div>
+  Powered by <a href="https://github.com/getgridea/gridea" target="_blank">Gridea</a> | <a class="rss" href="https://machine-spirit.github.io//atom.xml" target="_blank">RSS</a>
+</div>
+
+
     </div>
+    <script type="application/javascript">
 
-    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
-<script type="application/javascript">
-
-AOS.init();
+hljs.initHighlightingOnLoad()
 
 var app = new Vue({
   el: '#app',
@@ -250,8 +257,6 @@ var app = new Vue({
 })
 
 </script>
-
-
 
 
 
