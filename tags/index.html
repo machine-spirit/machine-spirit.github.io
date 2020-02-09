@@ -1,94 +1,185 @@
+<!DOCTYPE html>
 <html>
   <head>
-  <meta charset="utf-8" />
-<meta name="viewport" content="width=device-width, initial-scale=1" />
-<title>机器精灵 Machine Spirit</title>
-<link rel="shortcut icon" href="https://machine-spirit.github.io//favicon.ico?v=1581129262330">
-<link href="https://cdn.remixicon.com/releases/v2.1.0/remixicon.css" rel="stylesheet">
+    <meta charset="utf-8" >
+
+<title>标签列表 | 机器精灵 Machine Spirit</title>
+<meta name="description" content="发现精彩好物，共享精致生活">
+
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+<link rel="shortcut icon" href="https://machine-spirit.github.io//favicon.ico?v=1581236437816">
+
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+<link rel="stylesheet" href="https://unpkg.com/papercss@1.6.1/dist/paper.min.css" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.0/katex.min.css">
 <link rel="stylesheet" href="https://machine-spirit.github.io//styles/main.css">
-<link rel="alternate" type="application/atom+xml" title="机器精灵 Machine Spirit - Atom Feed" href="https://machine-spirit.github.io//atom.xml">
-<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Droid+Serif:400,700">
 
 
+<script src="https://cdn.bootcss.com/highlight.js/9.12.0/highlight.min.js"></script>
 
-  <meta name="description" content="发现精彩好物，共享精致生活" />
+
+<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+
   </head>
   <body>
-    <div class="main">
-      <div class="main-content">
-        <div class="site-header">
-  <a href="https://machine-spirit.github.io/">
-  <img class="avatar" src="https://machine-spirit.github.io//images/avatar.png?v=1581129262330" alt="">
-  </a>
-  <h1 class="site-title">
-    机器精灵 Machine Spirit
-  </h1>
-  <p class="site-description">
-    发现精彩好物，共享精致生活
-  </p>
-  <div class="menu-container">
-    
-      
-        <a href="/" class="menu">
-          首页
-        </a>
-      
-    
-      
-        <a href="/archives" class="menu">
-          归档
-        </a>
-      
-    
-      
-        <a href="/tags" class="menu">
-          标签
-        </a>
-      
-    
-      
-        <a href="/post/about" class="menu">
-          关于
-        </a>
-      
-    
+    <nav class="navbar border fixed split-nav">
+  <div class="nav-brand">
+    <h3><a href="https://machine-spirit.github.io/">机器精灵 Machine Spirit</a></h3>
   </div>
-  <div class="social-container">
-    
-      
-    
-      
-    
-      
-        <a href="https://weibo.com/u/6314455927" target="_blank">
-          <i class="ri-weibo-line"></i>
-        </a>
-      
-    
-      
-    
-      
-    
-  </div>
-</div>
-
-
-        <div class="tags-container">
-          
-            <a class="tag" href="https://machine-spirit.github.io/tag/PicorzevF">汽车用品</a>
-          
-            <a class="tag" href="https://machine-spirit.github.io/tag/4oRcajODK">Gridea</a>
-          
-        </div>
-
-        <div class="site-footer">
-  Powered by <a href="https://github.com/getgridea/gridea" target="_blank">Gridea</a>
-  <a class="rss" href="https://machine-spirit.github.io//atom.xml" target="_blank">
-    <i class="ri-rss-line"></i> RSS
-  </a>
-</div>
-
-      </div>
+  <div class="collapsible">
+    <input id="collapsible1" type="checkbox" name="collapsible1">
+    <button>
+      <label for="collapsible1">
+        <div class="bar1"></div>
+        <div class="bar2"></div>
+        <div class="bar3"></div>
+      </label>
+    </button>
+    <div class="collapsible-body">
+      <ul class="inline">
+        
+          <li>
+            
+              <a href="/" class="menu">
+                首页
+              </a>
+            
+          </li>
+        
+          <li>
+            
+              <a href="/archives" class="menu">
+                归档
+              </a>
+            
+          </li>
+        
+          <li>
+            
+              <a href="/tags" class="menu">
+                标签
+              </a>
+            
+          </li>
+        
+          <li>
+            
+              <a href="/post/about" class="menu">
+                关于
+              </a>
+            
+          </li>
+        
+      </ul>
     </div>
+  </div>
+</nav>
+
+    <div id="top" class="row site">
+      <div class="sm-12 md-8 col">
+        <div class="paper">
+          <h2 class="tag-list-title">标签列表</h2>
+          <div class="row tags-container">
+            
+              <a href="https://machine-spirit.github.io/tag/PicorzevF" class="badge warning">
+                汽车用品
+              </a>
+            
+              <a href="https://machine-spirit.github.io/tag/4oRcajODK" class="badge warning">
+                Gridea
+              </a>
+            
+          </div>
+        </div>
+      </div>
+      <div class="sm-12 md-4 col sidebar">
+  <div class="paper info-container">
+    <img src="https://machine-spirit.github.io//images/avatar.png?v=1581236437816" class="no-responsive avatar">
+    <div class="text-muted">发现精彩好物，共享精致生活</div>
+    <div class="social-container">
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    </div>
+  </div>
+  <div class="paper">
+    <div class="sidebar-title">
+      最新文章
+    </div>
+    <div class="row">
+      <ul>
+        
+          
+            <li>
+              <a href="https://machine-spirit.github.io/post/wan-mei-po-jie-yu-tian-kai-che-hou-shi-jing-kan-bu-qing-nan-ti">完美破解“雨天开车，后视镜看不清”难题！</a>
+            </li>
+          
+        
+          
+            <li>
+              <a href="https://machine-spirit.github.io/post/qi-che-yang-hu-chan-pin-qing-dan">汽车养护产品清单</a>
+            </li>
+          
+        
+          
+            <li>
+              <a href="https://machine-spirit.github.io/post/about">关于</a>
+            </li>
+          
+        
+          
+            <li>
+              <a href="https://machine-spirit.github.io/post/hello-gridea">Hello Gridea</a>
+            </li>
+          
+        
+      </ul>
+    </div>
+  </div>
+  <div class="paper">
+    <div class="sidebar-title">
+      标签列表
+    </div>
+    <div class="row">
+      
+        <a href="https://machine-spirit.github.io/tag/PicorzevF" class="badge secondary">
+          汽车用品
+        </a>
+      
+        <a href="https://machine-spirit.github.io/tag/4oRcajODK" class="badge warning">
+          Gridea
+        </a>
+      
+    </div>
+  </div>
+  <div class="paper">
+    Powered by <a href="https://github.com/getgridea/gridea" target="_blank">Gridea</a> | <a class="rss" href="https://machine-spirit.github.io//atom.xml" target="_blank">RSS</a>
+  </div>
+</div>
+  
+    </div>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+
+<script type="application/javascript">
+
+AOS.init();
+
+hljs.initHighlightingOnLoad()
+
+</script>
+
+
+
+
   </body>
 </html>
