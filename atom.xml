@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://machine-spirit.github.io/</id>
     <title>机器精灵 Machine Spirit</title>
-    <updated>2020-02-09T15:16:18.463Z</updated>
+    <updated>2020-02-09T15:18:31.193Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://machine-spirit.github.io/"/>
     <link rel="self" href="https://machine-spirit.github.io/atom.xml"/>
@@ -16,6 +16,10 @@
         <link href="https://machine-spirit.github.io/post/wan-mei-po-jie-yu-tian-kai-che-hou-shi-jing-kan-bu-qing-nan-ti">
         </link>
         <updated>2020-02-09T07:58:14.000Z</updated>
+        <summary type="html"><![CDATA[<p>老司机亲测有效，简单耐久！</p>
+]]></summary>
+        <content type="html"><![CDATA[<p>老司机亲测有效，简单耐久！</p>
+]]></content>
     </entry>
     <entry>
         <title type="html"><![CDATA[简单三步，爱车重焕容光！]]></title>
