@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://machine-spirit.github.io/</id>
     <title>机器精灵 Machine Spirit</title>
-    <updated>2020-02-09T15:12:44.147Z</updated>
+    <updated>2020-02-09T15:16:18.463Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://machine-spirit.github.io/"/>
     <link rel="self" href="https://machine-spirit.github.io/atom.xml"/>
@@ -11,21 +11,21 @@
     <icon>https://machine-spirit.github.io/favicon.ico</icon>
     <rights>All rights reserved 2020, 机器精灵 Machine Spirit</rights>
     <entry>
-        <title type="html"><![CDATA[简单三步，爱车重焕容光！]]></title>
-        <id>https://machine-spirit.github.io/post/jian-dan-san-bu-ai-che-chong-huan-rong-guang</id>
-        <link href="https://machine-spirit.github.io/post/jian-dan-san-bu-ai-che-chong-huan-rong-guang">
-        </link>
-        <updated>2020-02-09T14:57:18.000Z</updated>
-        <summary type="html"><![CDATA[<p>神器在手，轻轻松松搞定洗车/打蜡/翻新。</p>
-]]></summary>
-        <content type="html"><![CDATA[<p>神器在手，轻轻松松搞定洗车/打蜡/翻新。</p>
-]]></content>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[完美破解“雨天开车，后视镜看不清”难题！]]></title>
         <id>https://machine-spirit.github.io/post/wan-mei-po-jie-yu-tian-kai-che-hou-shi-jing-kan-bu-qing-nan-ti</id>
         <link href="https://machine-spirit.github.io/post/wan-mei-po-jie-yu-tian-kai-che-hou-shi-jing-kan-bu-qing-nan-ti">
         </link>
         <updated>2020-02-09T07:58:14.000Z</updated>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[简单三步，爱车重焕容光！]]></title>
+        <id>https://machine-spirit.github.io/post/jian-dan-san-bu-ai-che-chong-huan-rong-guang</id>
+        <link href="https://machine-spirit.github.io/post/jian-dan-san-bu-ai-che-chong-huan-rong-guang">
+        </link>
+        <updated>2020-02-07T14:57:18.000Z</updated>
+        <summary type="html"><![CDATA[<p>神器在手，轻松搞定洗车/打蜡和翻新。</p>
+]]></summary>
+        <content type="html"><![CDATA[<p>神器在手，轻松搞定洗车/打蜡和翻新。</p>
+]]></content>
     </entry>
 </feed>
