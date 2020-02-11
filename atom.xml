@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://machine-spirit.github.io/</id>
     <title>机器精灵 Machine Spirit</title>
-    <updated>2020-02-10T08:39:21.541Z</updated>
+    <updated>2020-02-11T06:43:16.620Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://machine-spirit.github.io/"/>
     <link rel="self" href="https://machine-spirit.github.io/atom.xml"/>
@@ -10,6 +10,17 @@
     <logo>https://machine-spirit.github.io/images/avatar.png</logo>
     <icon>https://machine-spirit.github.io/favicon.ico</icon>
     <rights>All rights reserved 2020, 机器精灵 Machine Spirit</rights>
+    <entry>
+        <title type="html"><![CDATA[只需一招，轻松拯救爱车漆面暗淡无光！]]></title>
+        <id>https://machine-spirit.github.io/post/zhi-xu-yi-zhao-qing-song-zheng-jiu-ai-che-qi-mian-an-dan-wu-guang</id>
+        <link href="https://machine-spirit.github.io/post/zhi-xu-yi-zhao-qing-song-zheng-jiu-ai-che-qi-mian-an-dan-wu-guang">
+        </link>
+        <updated>2020-02-11T03:54:06.000Z</updated>
+        <summary type="html"><![CDATA[<p>无需抛光，不伤漆面，自己动动手，省钱嚯啤酒！</p>
+]]></summary>
+        <content type="html"><![CDATA[<p>无需抛光，不伤漆面，自己动动手，省钱嚯啤酒！</p>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[完美破解“雨天开车，后视镜看不清”难题！]]></title>
         <id>https://machine-spirit.github.io/post/wan-mei-po-jie-yu-tian-kai-che-hou-shi-jing-kan-bu-qing-nan-ti</id>
